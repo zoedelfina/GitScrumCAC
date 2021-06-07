@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Green Life</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!----- viewport para apple device-width = ancho pantalla initial-scale es que inicia sin ningún zoom -->
+    <link rel="apple-touch-icon" href="assets/img_Zoe/icon.svg">
+    <!----- icono para apple y safari -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img_Zoe/icon.svg">
+    <!-- Load Require CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- iconos  -->
+    <link href="assets/css/boxicon.min.css" rel="stylesheet">
+    <!-- tipo de letra -->
+    
+    <!-- carga CSS -->
+    <link rel="stylesheet" href="assets/css/estilos.css">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <nav id="main_nav" class="navbar navbar-expand-lg navbar-dark bg-green shadow">
+    
+        <!--navbar-expand-lg = envoltorio para que el navbar se estire en lg
+    	navbar-light = texto negro de la letra
+    	bg-white = fondo de color blanco
+    	-->
+    
+        <div class="container d-flex justify-content-between align-items-center">
+    
+            <a class="navbar-brand h1 mt-2" href="index.html">
+                <!--navbar-brand = clase se utiliza para resaltar la marca o logotipo de su página-->
+                <span class="iconify" data-icon="akar-icons:plant" data-inline="false"></span>
+                <!--	bx bx-buildings = icono del logo de la web: 
+    				http://www.unisvg.com/icon-sets/bx/bx-buildings.html 
+    				https://boxicons.com/
+    				-->
+    
+                <span class="text-white h1">Green-</span><span class="text-white h1">Life</span>
+            </a>
+    
+            <!--	boton de hamburguesa -->
+            <button class="navbar-toggler text-white border-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                </span>
+            </button>
+            <!------------------------------------------- Opciones del Menu		-->
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between"
+                id="navbar-toggler-success">
+    
+                <!-------collapse navbar-collapse= para agrupar y ocultar el contenido de la barra de navegación 
+    		por un punto de interrupción principal.
+    		flex-fill = obliga a que todos los elementos tengan el mismo tamaño de ancho
+    		d-lg-flex = utilidades para crear un contenedor flexbox y transforme los elementos secundarios 
+    		directos en elementos flexibles
+    		-->
+                <div class="flex-fill mx-xl-5 mb-2">
+                    <!--	  mx=para clases que establecen tanto *-lefty*-right-->
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-light">
+                        <!--   .navbar-nav para una navegación ligera y de altura completa 
+    					   (incluida la compatibilidad con menús desplegables).-->
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-success text-white rounded-circle-- px3"
+                                href="index.html">Home</a>
+                            <!-- px = padding y mx es el margin 
+    						rounded-pill =genera ese boton con bordes redondeados rounded-circle-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-success text-white rounded-circle-- px-3"
+                                href="about.html">Acerca de Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-success text-white rounded-circle-- px-3"
+                                href="work.html">Galería</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-success text-white rounded-circle-- px-3"
+                                href="pricing.html">Combos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-success text-white rounded-circle-- px-3"
+                                href="contact.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <!---------------------------------------------------------Fin de las opciones del menu
+    ------------------------------------------------------------ Inicio de los iconos del menu-->
+                <div class="navbar align-self-center d-flex">
+                    <a class="nav-link" href="#"><span class="iconify" data-icon="clarity:notification-solid-badged" data-inline="false"></span></a>
+                    <a class="nav-link" href="#"><span class="iconify" data-icon="clarity:settings-solid" data-inline="false"></span></a>
+                    <a class="nav-link" href="#"><span class="iconify" data-icon="ic:round-account-circle" data-inline="false"></span></a>
+                    <!--	https://iconify.design/icon-sets/bx/-->
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Close Header -->
+
+
+    <!-- Start pricing -->
+    <div class="container-lg py-5">
+        <div class="col-md-12 m-auto text-center py-5">
+            <h1 class="pricing-header text-success h2 semi-bold-600">Combos para crear tu espacio verde</h1>
+            <p class="pricing-footer mt-4">
+                Elige el más apropiado a tus necesidades.
+            </p>
+        </div>
+
+
+        <div class="row px-lg-3">
+
+
+            <div class="col-md-4 pb-5 pt-sm-0 mt-3 px-xl-3">
+                <div class="bg-very-light-green pricing-table card h-100 shadow-sm border-0 py-5">
+                    <div class="pricing-table-body card-body rounded-pill text-center align-self-center p-md-0">
+                        <span class="iconify text-success" data-icon="whh:plantalt" data-inline="false"></span>
+                        <h2 class="pricing-table-heading text-success h5 semi-bold-600">Combo Interior</h2>
+                        <p>$5500</p>
+                        <ul class="pricing-table-body text-start text-dark px-4 list-unstyled light-300">
+                            <li><i class="bx bxs-florist text-success me-2"></i>7 tipos de plantas</li>
+                            <li><i class="bx bxs-florist text-success me-2"></i>8 macetas de distintos tamaños</li>
+                            <li><i class="bx bxs-florist text-success me-2"></i>1 bolsa de 5kg de fertilizante</li>
+                            <li><i class="bx bxs-florist text-success me-2"></i>Armado</li>
+                        </ul>
+                        <div class="pricing-table-footer pt-4">
+                            <a href="#" class="btn rounded-circle-- px-4 btn-success text-white light-300">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4 pb-5 pt-sm-0 mt-3 px-xl-3">
+                <div class="bg-very-light-green pricing-table card h-100 shadow-sm border-0 py-5">
+                    <div class="pricing-table-body card-body rounded-pill text-center align-self-center p-md-0">
+                        <span class="iconify text-success" data-icon="whh:plantalt" data-inline="false"></span>
+                        <h2 class="pricing-table-heading text-success h5 semi-bold-600">Combo Exterior</h2>
+                        <p>$7200</p>
+                        <ul class="pricing-table-list text-start text-dark px-4 list-unstyled light-300">
+                            <li><i class="bx bxs-florist text-success me-2"></i>10 tipos de plantas</li>
+                            <li><i class="bx bxs-florist text-success me-2"></i>12 macetas de distintos tamaños</li>
+                            <li><i class="bx bxs-florist text-success me-2"></i>2 bolsas de 3,5kg de fertilizante</li>
+                            <li><i class="bx bxs-florist text-success me-2"></i>Armado</li>
+                        </ul>
+                        <div class="pricing-table-footer pt-4 pb-2">
+                            <a href="#" class="btn rounded-circle-- px-4 btn-success text-white light-300">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4 pb-5 pt-sm-0 mt-3 px-xl-3">
+                <div class="bg-very-light-green pricing-table card h-100 shadow-sm border-0 py-5">
+                    <div class="pricing-table-body card-body text-center align-self-center p-md-0">
+                        <span class="iconify text-success" data-icon="whh:plantalt" data-inline="false"></span>
+                        <h2 class="pricing-table-heading text-success h5 semi-bold-600">Interior + Exterior</h2>
+                        <p>$12950</p>
+                        <ul class="pricing-table-list text-start text-dark px-4 list-unstyled light-300">
+                            <li><i class="bx bxs-florist text-success me-2"></i>20 tipos de plantas</li>
+                            <li><i class="bx bxs-florist text-success me-2"></i>30 macetas de distintos tamaños</li>
+                            <li><i class="bx bxs-florist text-success me-2"></i>2 bolsas de 5 kg de fertilizante</li>
+                            <li><i class="bx bxs-florist text-success me-2"></i>Armado</li>
+                        </ul>
+                        <div class="pricing-table-footer pt-4">
+                            <a href="#" class="btn rounded-circle-- px-4 btn-success text-white light-300">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- End Content -->
+
+
+
+
+
+    <!-- Start Pricing Horizontal Section -->
+    <section class="bg-very-light-green pt-sm-0 py-5">
+        <div class="container py-5">
+
+            <h1 class="h2 semi-bold-600 text-success text-center mt-2">Sé tu propio jardinero</h1>
+            <p class="text-center pb-5 light-300">Te damos los materiales básicos para que construyas tu propia GreenLife.</p>
+
+            <!-- Start Pricing Horizontal -->
+            <div class="pricing-horizontal row col-10 m-auto d-flex shadow-sm rounded overflow-hidden bg-white">
+                <div class="pricing-horizontal-icon col-md-3 text-center bg-success text-light py-4">
+                    <span class="iconify icono_pricing mt-4" data-icon="maki:garden-centre-11" data-inline="false"></span>
+                    <h5 class="h5 semi-bold-600 pb-4 light-300">Básico</h5>
+                </div>
+                <div class="pricing-horizontal-body offset-lg-1 col-md-5 col-lg-4 d-flex align-items-center pl-5 pt-lg-0 pt-4">
+                    <ul class="text-left px-4 list-unstyled mb-0 light-300">
+                        <li><i class="bx bxs-florist text-success me-2"></i>3 palas de diferentes tamaños</li>
+                        <li><i class="bx bxs-florist text-success me-2"></i>3 bolsas de distintas semillas</li>
+                        <li><i class="bx bxs-florist text-success me-2"></i>5 macetas</li>
+                        <li><i class="bx bxs-florist text-success me-2"></i>una bolsa de 7 kg de fertilizante</li>
+                    </ul>
+                </div>
+                <div class="pricing-horizontal-tag col-md-4 text-center pt-3 d-flex align-items-center">
+                    <div class="w-100 light-300">
+                        <p>$2500</p>
+                        <a href="#" class="btn rounded-circle-- px-4 btn-success text-white mb-3">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <!-- End Pricing Horizontal -->
+
+            <!-- Start Pricing Horizontal -->
+            <div class="pricing-horizontal row col-10 m-auto d-flex shadow-sm rounded overflow-hidden my-5 bg-white">
+                <div class="pricing-horizontal-icon col-md-3 text-center bg-success text-light py-4">
+                    <span class="iconify icono_pricing mt-4" data-icon="maki:garden-centre-11" data-inline="false"></span>
+                    <h5 class="h5 semi-bold-600 pb-4 light-300">Medium</h5>
+                </div>
+                <div class="pricing-horizontal-body offset-lg-1 col-md-5 col-lg-4 d-flex align-items-center pl-5 pt-lg-0 pt-4">
+                    <ul class="text-left px-4 list-unstyled mb-0 light-300">
+                        <li><i class="bx bxs-florist text-success me-2"></i>4 palas de diferentes tamaños</li>
+                        <li><i class="bx bxs-florist text-success me-2"></i>7 bolsas de distintas semillas</li>
+                        <li><i class="bx bxs-florist text-success me-2"></i>12 macetas</li>
+                        <li><i class="bx bxs-florist text-success me-2"></i>una bolsa de 15 kg de fertilizante</li>
+                    </ul>
+                </div>
+                <div class="pricing-horizontal-tag col-md-4 text-center pt-3 d-flex align-items-center">
+                    <div class="w-100 light-300">
+                        <p>$4500</p>
+                        <a href="#" class="btn rounded-circle-- px-4 btn-success text-white mb-3">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <!-- End Pricing Horizontal -->
+
+            <!-- Start Pricing Horizontal -->
+            <div class="pricing-horizontal row col-10 m-auto d-flex shadow-sm rounded overflow-hidden bg-white">
+                <div class="pricing-horizontal-icon col-md-3 text-center bg-success text-light py-4">
+                    <span class="iconify icono_pricing mt-4" data-icon="maki:garden-centre-11" data-inline="false"></span>
+                    <h5 class="h5 semi-bold-600 pb-4 light-300">Premium</h5>
+                </div>
+                <div class="pricing-horizontal-body offset-lg-1 col-md-5 col-lg-4 d-flex align-items-center pl-5 pt-lg-0 pt-4">
+                    <ul class="text-left px-4 list-unstyled mb-0 light-300">
+                        <li><i class="bx bxs-florist text-success me-2"></i>6 palas de diferentes tamaños</li>
+                        <li><i class="bx bxs-florist text-success me-2"></i>20 bolsas de distintas semillas</li>
+                        <li><i class="bx bxs-florist text-success me-2"></i>26 macetas</li>
+                        <li><i class="bx bxs-florist text-success me-2"></i>una bolsa de 35 kg de fertilizante</li>
+                    </ul>
+                </div>
+                <div class="pricing-horizontal-tag col-md-4 text-center pt-3 d-flex align-items-center">
+                    <div class="w-100 light-300">
+                        <p>$8250</p>
+                        <a href="#" class="btn rounded-circle-- px-4 btn-success text-white mb-3">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <!-- End Pricing Horizontal -->
+
+        </div>
+    </section>
+    <!--End Pricing Horizontal Section-->
+
+    <section class="container py-5">
+
+        <h1 class="h2 semi-bold-600 text-success text-center pt-5 pb-0">Servicios Extra</h1>
+        <p class="text-center light-300 pt-4">
+            Ofrecemos los siguientes servicios complementarios para mantener en condiciones óptimas tu jardín.
+        </p>
+
+        <div class="row d-flex align-items-center pb-5">
+
+            <div class="col-lg-6 offset-lg-0 col-md-8 offset-md-2">
+                <img class="rounded float-right" src="assets/img_Zoe/jardinero.svg">
+            </div>
+
+            <div class="col-lg-6">
+
+                <!-- Start Pricing List -->
+                <div class="pricing-list shadow-sm rounded-top rounded-3 py-sm-0 py-5">
+                    <div class="row p-2">
+                        <div class="pricing-list-icon col-sm-3 text-center m-auto text-secouccess-5 py-2">
+                            <span class="iconify text-success icono_pricing" data-icon="maki:garden-15" data-inline="false"></span>
+                        </div>
+                        <div class="pricing-list-body col-md-5 align-items-center pl-3 pt-2">
+                            <ul class="list-unstyled text-center light-300">
+                                <li class="h5 semi-bold-600 mb-0 mt-3">Básico</li>
+                                <li>Asesoramiento, Revisión sin gasto de materiales y Presupuesto.</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-list-footer col-4 text-center m-auto align-items-center">
+                            <a href="#" class="btn rounded-circle-- px-4 btn-success text-white light-300">$0</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Pricing List -->
+
+                <!-- Start Pricing List -->
+                <div class="pricing-list shadow-sm rounded-botton rounded-3 py-sm-0 py-5">
+                    <div class="row p-2">
+                        <div class="pricing-list-icon col-sm-3 text-center m-auto text-success ml-5 py-2">
+                            <span class="iconify text-success icono_pricing" data-icon="maki:garden-15" data-inline="false"></span>
+                        </div>
+                        <div class="pricing-list-body col-md-5 align-items-center pl-3 pt-2">
+                            <ul class="list-unstyled text-center light-300">
+                                <li class="h5 semi-bold-600 mb-0 mt-3">Medium</li>
+                                <li>Mantenimiento total de plantas de interior o exterior.</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-list-footer col-sm-4 col-5 text-center m-auto align-items-center">
+                            <a href="#" class="btn rounded-circle-- px-4 btn-success text-white light-300">$1500</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Pricing List -->
+                
+                <!-- Start Pricing List -->
+                <div class="pricing-list shadow-sm rounded-botton rounded-3 py-sm-0 py-5">
+                    <div class="row p-2">
+                        <div class="pricing-list-icon col-sm-3 text-center m-auto text-success ml-5 py-2">
+                            <span class="iconify text-success icono_pricing" data-icon="maki:garden-15" data-inline="false"></span>
+                        </div>
+                        <div class="pricing-list-body col-md-5 align-items-center pl-3 pt-2">
+                            <ul class="list-unstyled text-center light-300">
+                                <li class="h5 semi-bold-600 mb-0 mt-3">Premium</li>
+                                <li>Mantenimiento total de plantas de interior y exterior.</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-list-footer col-sm-4 col-5 text-center m-auto align-items-center">
+                            <a href="#" class="btn rounded-circle-- px-4 btn-success text-white light-300">$2500</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Pricing List -->
+                <p class="text-center"><a class="btn px-4 mt-4 mx-auto btn-success text-white" href="#">Contactanos por otros servicios</a></p>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Start Footer -->
+    <footer class="bg-green pt-4">
+        <div class="container">
+            <div class="row py-4">
+    
+                <div class="col-lg-3 col-12 align-left">
+                    <a class="navbar-brand" href="index.html">
+                        <span class="iconify text-light" data-icon="akar-icons:plant" data-inline="false"></span>
+                        <span class="text-light h5">Green</span><span class="text-light h5 semi-bold-600">Life</span>
+                    </a>
+                    <p class="text-light my-lg-4 my-2">
+                        Encontranos en nuestras redes sociales e inspecciona todo lo que GreenLife tiene para ofrecerte.
+                    </p>
+                    <ul class="list-inline footer-icons light-300">
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="http://instagram.com/">
+                                <span class="iconify" data-icon="fa-brands:instagram" data-inline="false"></span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="https://www.twitter.com/">
+                                <span class="iconify" data-icon="ph:twitter-logo" data-inline="false"></span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="https://whatsapp.com/">
+                                <span class="iconify" data-icon="fa-brands:whatsapp" data-inline="false"></span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="https://www.youtube.com/">
+                                <span class="iconify" data-icon="ant-design:youtube-outlined" data-inline="false"></span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="#">
+                                <span class="iconify" data-icon="ant-design:info-circle-outlined"
+                                    data-inline="false"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                    <h3 class="h4 pb-lg-3 text-light light-300">Nuestro Estudio</h2>
+                        <ul class="list-unstyled text-light light-300">
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light"
+                                    href="index.html">Home</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1"
+                                    href="about.html">Acerca de Nosotros</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1"
+                                    href="work.html">Galería</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i></i><a class="text-decoration-none text-light py-1"
+                                    href="pricing.html">Combos</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1"
+                                    href="contact.html">Contacto</a>
+                            </li>
+                        </ul>
+                </div>
+    
+                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                    <h2 class="h4 pb-lg-3 text-light light-300">Trabajos</h2>
+                    <ul class="list-unstyled text-light light-300">
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1"
+                                href="#">Interior</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1"
+                                href="#">Exterior</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1"
+                                href="#">Artefactos</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1"
+                                href="#">Paredes Verdes</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1"
+                                href="#">Mantenimiento</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                    <h2 class="h4 pb-lg-3 text-light light-300">Contactanos en:</h2>
+                    <ul class="list-unstyled text-light light-300">
+                        <li class="pb-2">
+                            <i class='bx-fw bx bx-phone bx-xs'></i><a class="text-decoration-none text-light py-1"
+                                href="tel:010-020-0340">011-1234-5678</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bx-mail-send bx-xs'></i><a class="text-decoration-none text-light py-1"
+                                href="mailto:info@company.com">greelife@company.com.ar</a>
+                        </li>
+                    </ul>
+                </div>
+    
+            </div>
+        </div>
+    
+        <div class="w-100 bg-dark-green py-3">
+            <div class="container">
+                <div class="row pt-2">
+                    <div class="col-lg-6 col-sm-12">
+                        <p class="text-lg-start text-center text-light light-300">
+                            © Copyright 2021 GreenLife. Todos los derechos reservados.
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <p class="text-lg-end text-center text-light light-300">
+                            Diseñado por <a rel="sponsored" class="text-decoration-none text-light"
+                                href="https://cursophp.com.ar/" target="_blank"><strong>CAC FullStack</strong></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </footer>
+    <!-- End Footer -->
+
+
+
+
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>

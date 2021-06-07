@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Green Life</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!----- viewport para apple device-width = ancho pantalla initial-scale es que inicia sin ningún zoom -->
+    <link rel="apple-touch-icon" href="assets/img_Zoe/icon.svg">
+    <!----- icono para apple y safari -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img_Zoe/icon.svg">
+    <!-- Load Require CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- iconos  -->
+    <link href="assets/css/boxicon.min.css" rel="stylesheet">
+    <!-- tipo de letra -->
+    
+    <!-- carga CSS -->
+    <link rel="stylesheet" href="assets/css/estilos.css">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <nav id="main_nav" class="navbar navbar-expand-lg navbar-dark bg-green shadow">
+    
+        <!--navbar-expand-lg = envoltorio para que el navbar se estire en lg
+    	navbar-light = texto negro de la letra
+    	bg-white = fondo de color blanco
+    	-->
+    
+        <div class="container d-flex justify-content-between align-items-center">
+    
+            <a class="navbar-brand h1 mt-2" href="index.html">
+                <!--navbar-brand = clase se utiliza para resaltar la marca o logotipo de su página-->
+                <span class="iconify" data-icon="akar-icons:plant" data-inline="false"></span>
+                <!--	bx bx-buildings = icono del logo de la web: 
+    				http://www.unisvg.com/icon-sets/bx/bx-buildings.html 
+    				https://boxicons.com/
+    				-->
+    
+                <span class="text-white h1">Green-</span><span class="text-white h1">Life</span>
+            </a>
+    
+            <!--	boton de hamburguesa -->
+            <button class="navbar-toggler text-white border-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                </span>
+            </button>
+            <!------------------------------------------- Opciones del Menu		-->
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between"
+                id="navbar-toggler-success">
+    
+                <!-------collapse navbar-collapse= para agrupar y ocultar el contenido de la barra de navegación 
+    		por un punto de interrupción principal.
+    		flex-fill = obliga a que todos los elementos tengan el mismo tamaño de ancho
+    		d-lg-flex = utilidades para crear un contenedor flexbox y transforme los elementos secundarios 
+    		directos en elementos flexibles
+    		-->
+                <div class="flex-fill mx-xl-5 mb-2">
+                    <!--	  mx=para clases que establecen tanto *-lefty*-right-->
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-light">
+                        <!--   .navbar-nav para una navegación ligera y de altura completa 
+    					   (incluida la compatibilidad con menús desplegables).-->
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-success text-white rounded-circle-- px3"
+                                href="index.html">Home</a>
+                            <!-- px = padding y mx es el margin 
+    						rounded-pill =genera ese boton con bordes redondeados rounded-circle-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-success text-white rounded-circle-- px-3"
+                                href="about.html">Acerca de Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-success text-white rounded-circle-- px-3"
+                                href="work.html">Galería</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-success text-white rounded-circle-- px-3"
+                                href="pricing.html">Combos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-success text-white rounded-circle-- px-3"
+                                href="contact.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <!---------------------------------------------------------Fin de las opciones del menu
+    ------------------------------------------------------------ Inicio de los iconos del menu-->
+                <div class="navbar align-self-center d-flex">
+                    <a class="nav-link" href="#"><span class="iconify" data-icon="clarity:notification-solid-badged" data-inline="false"></span></a>
+                    <a class="nav-link" href="#"><span class="iconify" data-icon="clarity:settings-solid" data-inline="false"></span></a>
+                    <a class="nav-link" href="#"><span class="iconify" data-icon="ic:round-account-circle" data-inline="false"></span></a>
+                    <!--	https://iconify.design/icon-sets/bx/-->
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Close Header -->
+
+
+    <!-- Start Banner Hero -->
+    <section class="bg-very-light-green">
+        <div class="container py-4">
+            <div class="row align-items-center justify-content-between">
+                <div class="contact-header col-lg-4">
+                    <h1 class="h2 pb-3 text-success">Envíenos su consulta</h1>
+                    <h3 class="h5 regular-400">En GreenLife estamos para asesorarlo y guiarlo en su elección.</h3>
+                </div>
+                <div class="contact-img col-lg-5 align-items-end col-md-4">
+                    <img src="assets/img_Zoe/contacto.svg">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Banner Hero -->
+
+
+    <!-- Start Contact -->
+    <section class="container py-5">
+
+        <h1 class="col-12 col-xl-8 h2 text-left text-success pt-3">¡Hace realidad tu sueño de tener un espacio verde!</h1>
+        <p class="col-12 col-xl-8 text-left text-muted pt-3 pb-4 light-300">
+            Comuníquese con los medios de contacto a continuación o puede dejar sus datos y nos estaremos comunicando a la brevedad con usted.
+        </p>
+
+        <div class="row pb-4">
+            <div class="col-lg-4">
+
+                <div class="contact row mb-4">
+                    <div class="contact-icon col-lg-3 col-3">
+                        <div class="py-3 mb-2 text-center border rounded text-secondary">
+                            <span class="iconify text-success icono_contact pt-3" data-icon="ic:baseline-business-center" data-inline="false"></span>
+                        </div>
+                    </div>
+                    <ul class="contact-info list-unstyled col-lg-9 col-9  light-300">
+                        <li class="h5 mb-0 text-success">Ventas</li>
+                        <li class="text-muted">Lic Juana Gonzalez</li>
+                        <li class="text-muted">15-4376-5567</li>
+                    </ul>
+                </div>
+
+                <div class="contact row mb-4">
+                    <div class="contact-icon col-lg-3 col-3">
+                        <div class="border py-3 mb-2 text-center border rounded text-secondary">
+                            <span class="iconify text-success icono_contact pt-3" data-icon="clarity:design-line" data-inline="false"></span>
+                        </div>
+                    </div>
+                    <ul class="contact-info list-unstyled col-lg-9 col-9 light-300">
+                        <li class="h5 mb-0 text-success">Diseñadora</li>
+                        <li class="text-muted">Lic. Mia Poraf</li>
+                        <li class="text-muted">15-0560-1345</li>
+                    </ul>
+                </div>
+
+                <div class="contact row mb-4">
+                    <div class="contact-icon col-lg-3 col-3">
+                        <div class="border py-3 mb-2 text-center border rounded text-secondary">
+                            <span class="iconify text-success icono_contact pt-3" data-icon="entypo:tree" data-inline="false"></span>
+                        </div>
+                    </div>
+                    <ul class="contact-info list-unstyled col-lg-9 col-9 light-300">
+                        <li class="h5 mb-0 text-success">Jardinero</li>
+                        <li class="text-muted">Sr. Roberto Lopez</li>
+                        <li class="text-muted">15-5466-5648</li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+            <!-- Start Contact Form -->
+            <div class="col-lg-8 ">
+                <form class="contact-form row" method="post" action="#" role="form">
+
+                    <div class="col-lg-6 mb-4">
+                        <div class="form-floating">
+                            <input type="text" class="form-control form-control-lg light-300" id="floatingname" name="inputname" placeholder="Name">
+                            <label for="floatingname light-300">Nombre y Apellido</label>
+                        </div>
+                    </div><!-- End Input Name -->
+
+                    <div class="col-lg-6 mb-4">
+                        <div class="form-floating">
+                            <input type="text" class="form-control form-control-lg light-300" id="floatingemail" name="inputemail" placeholder="Email">
+                            <label for="floatingemail light-300">Correo Electrónico</label>
+                        </div>
+                    </div><!-- End Input Email -->
+
+                    <div class="col-lg-6 mb-4">
+                        <div class="form-floating">
+                            <input type="text" class="form-control form-control-lg light-300" id="floatingphone" name="inputphone" placeholder="Phone">
+                            <label for="floatingphone light-300">Teléfono</label>
+                        </div>
+                    </div><!-- End Input Phone -->
+
+                    <div class="col-12">
+                        <div class="form-floating mb-4">
+                            <input type="text" class="form-control form-control-lg light-300" id="floatingsubject" name="inputsubject" placeholder="Subject">
+                            <label for="floatingsubject light-300">Asunto</label>
+                        </div>
+                    </div><!-- End Input Subject -->
+
+                    <div class="col-12">
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control light-300" rows="8" placeholder="Message" id="floatingtextarea"></textarea>
+                            <label for="floatingtextarea light-300">Mensaje</label>
+                        </div>
+                    </div><!-- End Textarea Message -->
+
+                    <div class="col-md-12 col-12 m-auto text-end">
+                        <button type="submit" class="btn btn-success rounded-circle-- px-md-5 px-4 py-2 radius-0 text-light light-300">Enviar Consulta</button>
+                    </div>
+
+                </form>
+            </div>
+            <!-- End Contact Form -->
+
+
+        </div>
+    </section>
+    <!-- End Contact -->
+
+
+     <!-- Start Footer -->
+    <footer class="bg-green pt-4">
+        <div class="container">
+            <div class="row py-4">
+    
+                <div class="col-lg-3 col-12 align-left">
+                    <a class="navbar-brand" href="index.html">
+                        <span class="iconify text-light" data-icon="akar-icons:plant" data-inline="false"></span>
+                        <span class="text-light h5">Green</span><span class="text-light h5 semi-bold-600">Life</span>
+                    </a>
+                    <p class="text-light my-lg-4 my-2">
+                        Encontranos en nuestras redes sociales e inspecciona todo lo que GreenLife tiene para ofrecerte.
+                    </p>
+                    <ul class="list-inline footer-icons light-300">
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="http://instagram.com/">
+                                <span class="iconify" data-icon="fa-brands:instagram" data-inline="false"></span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="https://www.twitter.com/">
+                                <span class="iconify" data-icon="ph:twitter-logo" data-inline="false"></span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="https://whatsapp.com/">
+                                <span class="iconify" data-icon="fa-brands:whatsapp" data-inline="false"></span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="https://www.youtube.com/">
+                                <span class="iconify" data-icon="ant-design:youtube-outlined" data-inline="false"></span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="#">
+                                <span class="iconify" data-icon="ant-design:info-circle-outlined"
+                                    data-inline="false"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                    <h3 class="h4 pb-lg-3 text-light light-300">Nuestro Estudio</h2>
+                        <ul class="list-unstyled text-light light-300">
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light"
+                                    href="index.html">Home</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1"
+                                    href="about.html">Acerca de Nosotros</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1"
+                                    href="work.html">Galería</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i></i><a class="text-decoration-none text-light py-1"
+                                    href="pricing.html">Combos</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1"
+                                    href="contact.html">Contacto</a>
+                            </li>
+                        </ul>
+                </div>
+    
+                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                    <h2 class="h4 pb-lg-3 text-light light-300">Trabajos</h2>
+                    <ul class="list-unstyled text-light light-300">
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1"
+                                href="#">Interior</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1"
+                                href="#">Exterior</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1"
+                                href="#">Artefactos</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1"
+                                href="#">Paredes Verdes</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1"
+                                href="#">Mantenimiento</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                    <h2 class="h4 pb-lg-3 text-light light-300">Contactanos en:</h2>
+                    <ul class="list-unstyled text-light light-300">
+                        <li class="pb-2">
+                            <i class='bx-fw bx bx-phone bx-xs'></i><a class="text-decoration-none text-light py-1"
+                                href="tel:010-020-0340">011-1234-5678</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bx-mail-send bx-xs'></i><a class="text-decoration-none text-light py-1"
+                                href="mailto:info@company.com">greelife@company.com.ar</a>
+                        </li>
+                    </ul>
+                </div>
+    
+            </div>
+        </div>
+    
+        <div class="w-100 bg-dark-green py-3">
+            <div class="container">
+                <div class="row pt-2">
+                    <div class="col-lg-6 col-sm-12">
+                        <p class="text-lg-start text-center text-light light-300">
+                            © Copyright 2021 GreenLife. Todos los derechos reservados.
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <p class="text-lg-end text-center text-light light-300">
+                            Diseñado por <a rel="sponsored" class="text-decoration-none text-light"
+                                href="https://cursophp.com.ar/" target="_blank"><strong>CAC FullStack</strong></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </footer>
+    <!-- End Footer -->
+
+
+
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Green Life</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!----- viewport para apple device-width = ancho pantalla initial-scale es que inicia sin ningún zoom -->
+    <link rel="apple-touch-icon" href="assets/img_Zoe/icon.svg">
+    <!----- icono para apple y safari -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img_Zoe/icon.svg">
+    <!-- Load Require CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- iconos  -->
+    <link href="assets/css/boxicon.min.css" rel="stylesheet">
+    <!-- tipo de letra -->
+    
+    <!-- carga CSS -->
+    <link rel="stylesheet" href="assets/css/estilos.css">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <nav id="main_nav" class="navbar navbar-expand-lg navbar-dark bg-green shadow">
+    
+        <!--navbar-expand-lg = envoltorio para que el navbar se estire en lg
+    	navbar-light = texto negro de la letra
+    	bg-white = fondo de color blanco
+    	-->
+    
+        <div class="container d-flex justify-content-between align-items-center">
+    
+            <a class="navbar-brand h1 mt-2" href="index.html">
+                <!--navbar-brand = clase se utiliza para resaltar la marca o logotipo de su página-->
+                <span class="iconify" data-icon="akar-icons:plant" data-inline="false"></span>
+                <!--	bx bx-buildings = icono del logo de la web: 
+    				http://www.unisvg.com/icon-sets/bx/bx-buildings.html 
+    				https://boxicons.com/
+    				-->
+    
+                <span class="text-white h1">Green-</span><span class="text-white h1">Life</span>
+            </a>
+    
+            <!--	boton de hamburguesa -->
+            <button class="navbar-toggler text-white border-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                </span>
+            </button>
+            <!------------------------------------------- Opciones del Menu		-->
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between"
+                id="navbar-toggler-success">
+    
+                <!-------collapse navbar-collapse= para agrupar y ocultar el contenido de la barra de navegación 
+    		por un punto de interrupción principal.
+    		flex-fill = obliga a que todos los elementos tengan el mismo tamaño de ancho
+    		d-lg-flex = utilidades para crear un contenedor flexbox y transforme los elementos secundarios 
+    		directos en elementos flexibles
+    		-->
+                <div class="flex-fill mx-xl-5 mb-2">
+                    <!--	  mx=para clases que establecen tanto *-lefty*-right-->
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-light">
+                        <!--   .navbar-nav para una navegación ligera y de altura completa 
+    					   (incluida la compatibilidad con menús desplegables).-->
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-success text-white rounded-circle-- px3"
+                                href="index.html">Home</a>
+                            <!-- px = padding y mx es el margin 
+    						rounded-pill =genera ese boton con bordes redondeados rounded-circle-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-success text-white rounded-circle-- px-3"
+                                href="about.html">Acerca de Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-success text-white rounded-circle-- px-3"
+                                href="work.html">Galería</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-success text-white rounded-circle-- px-3"
+                                href="pricing.html">Combos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-success text-white rounded-circle-- px-3"
+                                href="contact.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <!---------------------------------------------------------Fin de las opciones del menu
+    ------------------------------------------------------------ Inicio de los iconos del menu-->
+                <div class="navbar align-self-center d-flex">
+                    <a class="nav-link" href="#"><span class="iconify" data-icon="clarity:notification-solid-badged" data-inline="false"></span></a>
+                    <a class="nav-link" href="#"><span class="iconify" data-icon="clarity:settings-solid" data-inline="false"></span></a>
+                    <a class="nav-link" href="#"><span class="iconify" data-icon="ic:round-account-circle" data-inline="false"></span></a>
+                    <!--	https://iconify.design/icon-sets/bx/-->
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Close Header -->
+
+
+    <!-- Start Banner Hero -->
+    <section class="bg-very-light-green w-100">
+        <div class="container">
+            <div class="row d-flex align-items-center py-5">
+                <div class="col-lg-6 text-start">
+                    <h1 class="h2 py-5 text-success typo-space-line">Sobre Nosotros</h1>
+                    <p class="light-300">
+                        Somos personas dedicadas y aficionadas a la jardinería.
+                        Nuestro objetivo es que cada uno de nuestros clientes pueda tener lo que imagine y más.
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <img class="mi_imagen" src="assets/img_Zoe/fondo_about.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Banner Hero -->
+
+
+    <!-- Start Team Member -->
+    <section class="container py-5">
+        <div class="pt-5 flex-wrap pb-3 d-lg-flex align-items-center gx-5">
+
+            <div class="col-lg-3">
+                <h2 class="h2 py-5 text-success typo-space-line">Nuestro Equipo</h2>
+                <p class="text-muted light-300">
+                    Compuesto por diferentes profesionales que logran que esta empresa crezca día a día.
+                </p>
+            </div>
+
+            <div class="col-lg-9 row">
+                <div class="team-member col-md-4">
+                    <img class="team-member-img img-fluid rounded-circle p-4" src="assets/img_Zoe/vendedora.jpeg" alt="Card image">
+                    <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
+                        <li>Juana Gonzalez</li>
+                        <li>Vendedora</li>
+                    </ul>
+                </div>
+                <div class="team-member col-md-4">
+                    <img class="team-member-img img-fluid rounded-circle p-4" src="assets/img_Zoe/jardinero.jpg" alt="Card image">
+                    <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
+                        <li>Roberto Lopez</li>
+                        <li>Jardinero</li>
+                    </ul>
+                </div>
+                <div class="team-member col-md-4">
+                    <img class="team-member-img img-fluid rounded-circle p-4" src="assets/img_Zoe/jardinero junior.jpg" alt="Card image">
+                    <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
+                        <li>Zack Lefron</li>
+                        <li>Jardinero Junior</li>
+                    </ul>
+                </div>
+                <div class="team-member col-md-4">
+                    <img class="team-member-img img-fluid rounded-circle p-4" src="assets/img_Zoe/fumigador.jpg" alt="Card image">
+                    <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
+                        <li>Walter Rodriguez</li>
+                        <li>Fumigador</li>
+                    </ul>
+                </div>
+                <div class="team-member col-md-4">
+                    <img class="team-member-img img-fluid rounded-circle p-4" src="assets/img_Zoe/diseñadora.jpg" alt="Card image">
+                    <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
+                        <li>Mia Poraf</li>
+                        <li>Diseñadora</li>
+                    </ul>
+                </div>
+                <div class="team-member col-md-4">
+                    <img class="team-member-img img-fluid rounded-circle p-4" src="assets/img_Zoe/contratista.jpg"
+                        alt="Card image">
+                    <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
+                        <li>Jose Finsh</li>
+                        <li>Contratista</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End Team Member -->
+
+    <!-- Start Our Partner -->
+    <section class="bg-very-light-green py-3">
+        <div class="container py-5">
+            <h2 class="h2 text-success text-center py-5">Preferencias</h2>
+            <div class="row text-center">
+                <div class="col-md-3 mb-3">
+                    <div class="card partner-wap py-5">
+                        <a href="#"><span class="iconify caja-diseño" data-icon="bx:bxs-florist" data-inline="false"></span></a>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="card partner-wap py-5">
+                        <a href="#"><span class="iconify caja-diseño" data-icon="teenyicons:plant-outline" data-inline="false"></span></a>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="card partner-wap py-5">
+                        <a href="#"><span class="iconify caja-diseño" data-icon="ri:plant-line" data-inline="false"></span></a>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="card partner-wap py-5">
+                        <a href="#"><span class="iconify caja-diseño" data-icon="jam:tree-alt" data-inline="false"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Our Partner-->
+
+    <!-- Start Progress -->
+    <section class="bg-white py-5">
+        <div class="container my-4">
+
+            <h1 class="creative-heading text-success h2 pb-3">Tendencias</h1>
+
+            <div class="creative-content row py-3">
+                <div class="col-md-5">
+                    <p class="text-muted col-lg-8 light-300">Nuestros trabajos más populares entre el total de nuestros clientes.
+                    </p>
+                </div>
+                <div class="creative-progress col-md-7">
+
+                    <div class="row mt-4 mt-sm-2">
+                        <div class="col-6">
+                            <h4 class="h5">Paredes Verdes</h4>
+                        </div>
+                        <div class="col-6 text-right">85%</div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-dark-green" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+
+                    <div class="row mt-4 mt-sm-2">
+                        <div class="col-6">
+                            <h4 class="h5">Crasas</h4>
+                        </div>
+                        <div class="col-6 text-right">91%</div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-dark-green" role="progressbar" style="width: 91%" aria-valuenow="91" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+
+
+                    <div class="row mt-4 mt-sm-2">
+                        <div class="col-6">
+                            <h4 class="h5">Jardines Simples</h4>
+                        </div>
+                        <div class="col-6 text-right">51%</div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-dark-green" role="progressbar" style="width: 51%" aria-valuenow="51" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Progress -->
+
+    <!-- Start Choice -->
+    <section class="why-us banner-bg bg-very-light-green">
+        <div class="container my-4">
+            <div class="row">
+                <div class="banner-img col-lg-5">
+                    <img src="assets/img_Zoe/familia.svg" class="rounded img-fluid" alt="">
+                </div>
+                <div class="banner-content col-lg-7 align-self-end">
+                    <h2 class="h2 text-success pb-3">¿Por qué iniciamos esta empresa?</h2>
+                    <p class="text-muted pb-5 light-300"> Es más que un trabajo para nosotros. 
+                        Cada uno desde pequeños ha aprendido a amar el oficio, a amar la naturaleza gracias a nuestras familias. 
+                        No encontramos una mejor manera de representarlo que creando esta compañía para hacer llegar lo que sabemos a las personas.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Choice -->
+
+    <!-- Start Aim -->
+    <section class="banner-bg bg-white py-5">
+        <div class="container my-4">
+            <div class="row text-center">
+
+                <div class="objective col-lg-4">
+                    <div class="objective-icon card m-auto py-4 mb-2 mb-sm-4 bg-success shadow-lg">
+                        <span class="iconify icono_about" data-icon="el:idea" data-inline="false"></span>
+                    </div>
+                    <h2 class="objective-heading h3 mb-2 mb-sm-4 light-300">Visión</h2>
+                    <p class="light-300">
+                        Nos vemos como una de las mayores empresas en el rubro, destacada por su atención a los clientes.               </p>
+                </div>
+
+                <div class="objective col-lg-4 mt-sm-0 mt-4">
+                    <div class="objective-icon card m-auto py-4 mb-2 mb-sm-4 bg-success shadow-lg">
+                        <span class="iconify icono_about" data-icon="fluent:task-list-ltr-20-regular" data-inline="false"></span>
+                    </div>
+                    <h2 class="objective-heading h3 mb-2 mb-sm-4 light-300">Misión</h2>
+                    <p class="light-300">
+                        Poder incrementar el potencial que ofrece este tipo de negocio, innovando y trayendo cosas nuevas al mercado.
+                    </p>
+                </div>
+
+                <div class="objective col-lg-4 mt-sm-0 mt-4">
+                    <div class="objective-icon card m-auto py-4 mb-2 mb-sm-4 bg-success shadow-lg">
+                        <span class="iconify icono_about" data-icon="cil:plant" data-inline="false"></span>
+                    </div>
+                    <h2 class="objective-heading h3 mb-2 mb-sm-4 light-300">Pasión</h2>
+                    <p class="light-300">
+                        Nuestras familias que siempre nos inculcaron este sentimiento y a la misma naturaleza que nos aporta toda inspiración.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End Aim -->
+
+    <!-- Start Contact -->
+    <section class="banner-bg bg-very-light-green py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mx-auto my-4 p-3">
+                    <form action="#" method="get"><h1 class="h2 text-success text-center">Suscribite para enterarte de las últimas novedades</h1>
+                    <div class="input-group py-3">
+                    
+                        <input name="email" type="mail" class="form-control form-control-lg rounded-circle-- rounded-end" id="email" placeholder="Email" aria-label="Email" required>
+                        <button class="btn btn-success text-white btn-lg rounded-circle-- rounded-start px-lg-4" type="submit">Suscribirse</button>
+                    </div>
+                    <p class="text-center light-300">Te enviaremos las nuevas ofertas y novedades a tu dirección de e-mail.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact -->
+
+
+     <!-- Start Footer -->
+    <footer class="bg-green pt-4">
+        <div class="container">
+            <div class="row py-4">
+    
+                <div class="col-lg-3 col-12 align-left">
+                    <a class="navbar-brand" href="index.html">
+                        <span class="iconify text-light" data-icon="akar-icons:plant" data-inline="false"></span>
+                        <span class="text-light h5">Green</span><span class="text-light h5 semi-bold-600">Life</span>
+                    </a>
+                    <p class="text-light my-lg-4 my-2">
+                        Encontranos en nuestras redes sociales e inspecciona todo lo que GreenLife tiene para ofrecerte.
+                    </p>
+                    <ul class="list-inline footer-icons light-300">
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="http://instagram.com/">
+                                <span class="iconify" data-icon="fa-brands:instagram" data-inline="false"></span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="https://www.twitter.com/">
+                                <span class="iconify" data-icon="ph:twitter-logo" data-inline="false"></span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="https://whatsapp.com/">
+                                <span class="iconify" data-icon="fa-brands:whatsapp" data-inline="false"></span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="https://www.youtube.com/">
+                                <span class="iconify" data-icon="ant-design:youtube-outlined" data-inline="false"></span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="#">
+                                <span class="iconify" data-icon="ant-design:info-circle-outlined"
+                                    data-inline="false"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                    <h3 class="h4 pb-lg-3 text-light light-300">Nuestro Estudio</h2>
+                        <ul class="list-unstyled text-light light-300">
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light"
+                                    href="index.html">Home</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1"
+                                    href="about.html">Acerca de Nosotros</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1"
+                                    href="work.html">Galería</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i></i><a class="text-decoration-none text-light py-1"
+                                    href="pricing.html">Combos</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1"
+                                    href="contact.html">Contacto</a>
+                            </li>
+                        </ul>
+                </div>
+    
+                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                    <h2 class="h4 pb-lg-3 text-light light-300">Trabajos</h2>
+                    <ul class="list-unstyled text-light light-300">
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1"
+                                href="#">Interior</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1"
+                                href="#">Exterior</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1"
+                                href="#">Artefactos</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1"
+                                href="#">Paredes Verdes</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1"
+                                href="#">Mantenimiento</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                    <h2 class="h4 pb-lg-3 text-light light-300">Contactanos en:</h2>
+                    <ul class="list-unstyled text-light light-300">
+                        <li class="pb-2">
+                            <i class='bx-fw bx bx-phone bx-xs'></i><a class="text-decoration-none text-light py-1"
+                                href="tel:010-020-0340">011-1234-5678</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bx-mail-send bx-xs'></i><a class="text-decoration-none text-light py-1"
+                                href="mailto:info@company.com">greelife@company.com.ar</a>
+                        </li>
+                    </ul>
+                </div>
+    
+            </div>
+        </div>
+    
+        <div class="w-100 bg-dark-green py-3">
+            <div class="container">
+                <div class="row pt-2">
+                    <div class="col-lg-6 col-sm-12">
+                        <p class="text-lg-start text-center text-light light-300">
+                            © Copyright 2021 GreenLife. Todos los derechos reservados.
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <p class="text-lg-end text-center text-light light-300">
+                            Diseñado por <a rel="sponsored" class="text-decoration-none text-light"
+                                href="https://cursophp.com.ar/" target="_blank"><strong>CAC FullStack</strong></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </footer>
+    <!-- End Footer -->
+
+
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
